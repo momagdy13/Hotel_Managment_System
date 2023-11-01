@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Manage_Room">
+  <grid id="27dc6" binding="room" layout-manager="GridLayoutManager" row-count="15" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="513" height="1645"/>
+    </constraints>
+    <properties>
+      <background color="-15724530"/>
+      <doubleBuffered value="true"/>
+      <enabled value="false"/>
+      <verifyInputWhenFocusTarget value="true"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="a2def" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Cambria Math" size="18" style="1"/>
+          <foreground color="-6356933"/>
+          <icon value="Hotel Images &amp; Icon/manage room.png"/>
+          <text value="Manage Room"/>
+        </properties>
+      </component>
+      <hspacer id="88ff">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <scrollpane id="7a39a" binding="table">
+        <constraints>
+          <grid row="1" column="1" row-span="13" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15066600"/>
+          <enabled value="true"/>
+          <font name="Cambria Math" size="18" style="1"/>
+          <foreground color="-196865"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="1b4a3" class="javax.swing.JTable" binding="tablee">
+            <constraints/>
+            <properties>
+              <autoCreateRowSorter value="true"/>
+              <dragEnabled value="true"/>
+              <dropMode value="USE_SELECTION"/>
+              <enabled value="true"/>
+              <fillsViewportHeight value="true"/>
+              <font name="Cambria Math" size="14" style="0"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="d7d8f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Cambria Math" size="18" style="1"/>
+          <foreground color="-6356933"/>
+          <text value="Room Number"/>
+        </properties>
+      </component>
+      <component id="f01c0" class="javax.swing.JTextField" binding="room_n">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-720900"/>
+          <font name="Cambria Math" size="18" style="1"/>
+        </properties>
+      </component>
+      <component id="c2116" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Cambria Math" size="18" style="1"/>
+          <foreground color="-6356933"/>
+          <text value="Room Type"/>
+        </properties>
+      </component>
+      <component id="86ce" class="javax.swing.JComboBox" binding="type">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15066600"/>
+          <font name="Cambria Math" size="18" style="1"/>
+          <foreground color="-196865"/>
+          <model>
+            <item value="Ac"/>
+            <item value="Non-Ac"/>
+          </model>
+        </properties>
+      </component>
+      <component id="b86eb" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Cambria Math" size="18" style="1"/>
+          <foreground color="-6356933"/>
+          <text value="Bed"/>
+        </properties>
+      </component>
+      <component id="f95d7" class="javax.swing.JComboBox" binding="bed">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15066600"/>
+          <font name="Cambria Math" size="18" style="1"/>
+          <foreground color="-196865"/>
+          <model>
+            <item value="Single"/>
+            <item value="Double"/>
+            <item value="Triple"/>
+          </model>
+        </properties>
+      </component>
+      <component id="98afc" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Cambria Math" size="18" style="1"/>
+          <foreground color="-6356933"/>
+          <text value="Price"/>
+        </properties>
+      </component>
+      <component id="dacc7" class="javax.swing.JTextField" binding="price">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Cambria Math" size="18" style="1"/>
+        </properties>
+      </component>
+      <component id="f3409" class="javax.swing.JButton" binding="addRoomButton" default-binding="true">
+        <constraints>
+          <grid row="10" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-6356933"/>
+          <font name="Cambria Math" size="18" style="1"/>
+          <foreground color="-196865"/>
+          <text value="Add Room"/>
+        </properties>
+      </component>
+      <vspacer id="3dad9">
+        <constraints>
+          <grid row="14" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <hspacer id="7a093">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="b8dc1">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="ce941" class="javax.swing.JButton" binding="exitButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15066600"/>
+          <font name="Segoe Print" size="16" style="0"/>
+          <foreground color="-6356933"/>
+          <icon value="Hotel Images &amp; Icon/close.png"/>
+          <text value="Exit"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
