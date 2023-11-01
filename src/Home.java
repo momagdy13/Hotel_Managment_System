@@ -65,6 +65,12 @@ public class Home {
                 new Check_Out();
             }
         });
+        customerDetailsBillButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                new Customer_Details_Bills();
+            }
+        });
     }
 
 
